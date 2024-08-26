@@ -35,6 +35,10 @@ main {
 }
 
 #breed-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centraliza os botões horizontalmente */
     margin-bottom: 20px;
 }
 
@@ -43,15 +47,16 @@ main {
     border: none;
     border-radius: 5px;
     color: #fff;
-    padding: 10px;
-    margin: 5px;
+    padding: 10px 20px; /* Aumenta o padding horizontal para um tamanho mais consistente */
     cursor: pointer;
     font-size: 16px;
+    text-align: center; /* Garante que o texto dentro do botão fique centralizado */
 }
 
 .breed-button:hover {
     background-color: #474643;
 }
+
 #image-gallery {
     display: flex;
     flex-wrap: wrap;
